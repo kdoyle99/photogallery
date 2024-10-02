@@ -244,4 +244,11 @@ small {
     .grid-container {
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+    figure:nth-of-type(3) {
+        top: 0px;
+    }
+    figure:nth-of-type(3) figcaption {
+        bottom: 30px;
+    }
 }
