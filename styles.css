@@ -1,3 +1,4 @@
+
 /* -------- CSS RESET -------- */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -219,6 +220,12 @@ small {
         grid-template-columns: 1fr 1fr;
         column-gap: 10px;
         margin: 0 auto;
+    }
+    figure:nth-of-type(3) {
+        top: -141px;
+    }
+    figure:nth-of-type(3) figcaption {
+        bottom: 171px;
     }
     img {
         width: 340px;
